@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 994617978174.dkr.ecr.us-east-2.amazonaws.com/python-app:latest
+      - docker push 816292901557.dkr.ecr.us-east-2.amazonaws.com/python-app:latest
 artifacts:
   files:
     - '**/*'
